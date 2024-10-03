@@ -1,0 +1,28 @@
+.user {
+    background-color: #F2F3F4;
+    min-height: 90vh;
+    max-height: auto;
+    padding: 20px;
+    width: 100%;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+
+#loading{
+    align-items: center;
+}
+
+.user-column{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    /* Align columns to the left */
+    width: max-content;
+    /* Allow the columns to take their full width */
+    padding-left: 20px;
+    /* Padding inside the scroll area to avoid overflow from the left */
+}
+
+@media screen and (max-width: 1200px) {
+    
+}

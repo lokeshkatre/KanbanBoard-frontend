@@ -1,0 +1,51 @@
+.priority{
+    background-color: #F2F3F4;
+    min-height: 90vh;
+    max-height: auto;
+    padding: 20px;
+    width: 100%;
+    overflow-x: auto; 
+    box-sizing: border-box;
+}
+
+.column{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start; /* Align columns to the left */
+    width: max-content; /* Allow the columns to take their full width */
+    padding-left: 20px; /* Padding inside the scroll area to avoid overflow from the left */
+}
+
+
+.column_content {
+    width: 280px; /* Set width of each column */
+}
+
+.title{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#count{
+    font-size: 13px;
+    color: grey;
+}
+
+
+.title_content{
+    display: flex;
+    gap: 5px;
+}
+
+.title_content p{
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .column_content {
+        width: 200px;
+    }
+}

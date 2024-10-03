@@ -1,0 +1,55 @@
+.individual-content {
+    width: 280px;
+}
+
+.individual-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.individual-title_content {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.individual-title_content img{
+    height: 20px;
+}
+
+.individual-title_content p {
+    font-size: 13   px;
+}
+
+.count {
+    color: grey;
+    font-size: 12px;
+}
+
+.individual-ticketDetails {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media screen and (max-width: 700px){
+    
+    .individual-content {
+        width: 200px;
+    }
+
+    .individual-title_content p{
+        font-size: 12px;
+    }
+    
+    .individual-title_content img{
+        height: 17px;
+    }
+    
+    .individual-title_content img{
+        height: 18px;
+    }
+}

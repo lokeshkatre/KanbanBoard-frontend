@@ -1,0 +1,98 @@
+.prioritycard {
+    background-color: white;
+    border: 2px solid #e7e9eb;
+    border-radius: 5px;
+    padding: 9px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.prioritycard-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prioritycard-top img{
+    height: 20px;
+}
+
+.prioritycard-top h6 {
+    color: rgb(158, 157, 157);
+    margin: 0;
+}
+
+.prioritycard-title {
+    display: flex;
+    height: 35px;
+    gap: 8px;
+    /* Space between image and text */
+}
+
+.prioritycard-title img {
+    height: 15px;
+    padding-top: 2px;
+}
+
+.prioritycard-title p {
+    font-size: 13px;
+    padding-right: 30px;
+    margin: 0;
+    /* Remove default margin from paragraph */
+}
+
+.prioritycard-tag {
+    display: flex;
+    align-items: center;
+    /* Ensure priority icon and tag text are aligned */
+    gap: 8px;
+}
+
+.prioritycard-tag img {
+    height: 14px;
+}
+
+.prioritycard-tag p {
+    border: 1px solid #d3e0ec;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 2px;
+    align-items: center;
+    color: grey;
+    margin: 0;
+    display: flex;
+    gap: 4px;
+}
+
+#circle {
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    background-color: #c0d1e2;
+}
+
+
+@media screen and (max-width: 700px) {
+    .prioritycard-top img {
+        height: 18px;
+    }
+
+    .prioritycard h6 {
+        font-size: 10px;
+    }
+
+    .prioritycard-title {
+        height: 50px;
+        gap: 6px;
+    }
+
+    .prioritycard-title p{
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .prioritycard-title img{
+        height: 12px;
+    }
+}
